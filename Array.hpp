@@ -7,7 +7,7 @@ namespace cs540{
     class OutOfRange : public std::out_of_range{
         public:
             OutOfRange()
-                : std::out_of_range{"Out of Range, Bro!"}
+                : std::out_of_range{"Out of Range"}
             { }
 
     };
